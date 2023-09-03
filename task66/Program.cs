@@ -13,8 +13,7 @@ Console.WriteLine($"{SumNum(m, n)}");
 
 
 int SumNum(int mS, int nE){
-    
     if (mS == nE) return nE;
     return (mS += SumNum(mS+1, nE));
 }
-    
+
